@@ -1,0 +1,34 @@
+{
+  "name": "huongda-online-core",
+  "version": "1.0.0",
+  "description": "Huong Da Online",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuongDa-Group/Nodejs-Core-Express-MySQL.git"
+  },
+  "author": "Nghi Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuongDa-Group/Nodejs-Core-Express-MySQL/issues"
+  },
+  "homepage": "https://huongda.com",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "i18next": "^19.8.4",
+    "i18next-express-middleware": "^2.0.0",
+    "i18next-node-fs-backend": "^2.1.3",
+    "liquidjs": "^9.17.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
